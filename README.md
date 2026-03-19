@@ -16,7 +16,7 @@ return keyword and functions calling other functions.
   - [Extra Challenges (Bonus)](#extra-challenges-bonus)
 
 ---
-
+## Function Declarations
 **Exercise 1.2: Calculate Rectangle Area**  
 Create a function called `calculateArea` that takes `length` and `width` as parameters and returns the
 area of a rectangle. Test it with different values.
