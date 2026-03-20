@@ -7,6 +7,7 @@ return keyword and functions calling other functions.
 
 - [JavaScript Functions Beginner Exercises](#javascript-functions-beginner-exercises)
   - [Table of Contents](#table-of-contents)
+  - [Function Declarations](#function-declarations)
   - [Function Expressions](#function-expressions)
   - [Arrow Functions](#arrow-functions)
   - [Parameters and Arguments](#parameters-and-arguments)
@@ -16,7 +17,9 @@ return keyword and functions calling other functions.
   - [Extra Challenges (Bonus)](#extra-challenges-bonus)
 
 ---
+
 ## Function Declarations
+
 **Exercise 1.2: Calculate Rectangle Area**  
 Create a function called `calculateArea` that takes `length` and `width` as parameters and returns the
 area of a rectangle. Test it with different values.
@@ -130,15 +133,14 @@ that takes an average and returns the letter grade (A, B, C, D, F). The main fun
 average and call `getLetterGrade`.
 
 **Exercise 7.3: Budget Planner**  
-Create functions: `calculateMonthlyBudget` (takes annual income), `allocateFunds` (takes budget and
-categories), and `displayBudget` (displays result). Chain these functions together.
+Create three functions: calculateMonthlyBudget (takes an annual income, deducts 20% tax, and returns the monthly budget), allocateFunds (takes the monthly budget and returns an object with amounts for Rent 30%, Food 20%, Transport 15%, Entertainment 10%, and Savings 25%), and displayBudget (takes the allocated object and prints each category with its amount to the console). Experiment using an annual income of Ksh. 600,000.
 
-**Exercise 7.4: User Registration**  
+**Exercise 7.4: User Registration**
 Create functions: `validateEmail` (checks if email contains @), `validatePassword` (checks if 8+
 characters), and `registerUser` (takes email, password, name and calls validation functions before
 creating a user object).
 
-**Exercise 7.5: All Function Types in One Project**  
+**Exercise 7.5: All Function Types in One Project**
 Create a simple `shopping cart function`: Use a function declaration for initialization, a function
 expression for adding items, and arrow functions for calculating totals and applying discounts. Make
 functions call each other to process an order
@@ -157,3 +159,7 @@ backwards.
 **Bonus 3: Array Processing**
 Write a function called `findAverage` that takes an array of numbers and returns the average. Create
 another function `getGrade` that uses findAverage to determine a grade.
+
+```
+
+```
